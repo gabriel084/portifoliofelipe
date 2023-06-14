@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+
+    <? var url = getUrl() ?>
+    
+    <form action="<?= url ?>" method="POST">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome">
+      
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" name="sobrenome">
+      <button type="submit" >Enviar</button>
+      </form>
+  </body>
+</html>
